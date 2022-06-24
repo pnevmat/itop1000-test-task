@@ -2,6 +2,7 @@
   "name": "itop1000-test-task",
   "version": "0.1.0",
   "private": true,
+	"homepage": "https://pnevmat.github.io/itop1000-test-task",
   "dependencies": {
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
