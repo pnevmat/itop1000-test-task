@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './App.css';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -12,7 +13,6 @@ import ExchangeCalculator from './components/ExchangeCalculator/ExchangeCalculat
 import Copyright from './components/Copyright';
 import Loader from './components/Loader';
 import exchangeRatesRequest from './api/exchangeRatesRequest';
-import './App.css';
 
 const mdTheme = createTheme();
 
